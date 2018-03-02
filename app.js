@@ -35,5 +35,6 @@ App({
   },
   globalData: {
     userInfo: null
-  }
+  },
+  key: "b97291b63cb70297d2dadd46aee5bb81"
 })

@@ -2,8 +2,9 @@
  
   <text >{{item.title}}</text>
    <view><text >{{item.ct}}</text></view> 
-   
-  <view style='padding:10px'><text style='padding:0px'>{{item.text}}</text></view> 
+   <view style='height:8px'></view>
+  <image src='{{item.img}}'>
+  </image>
   
-  
+  <view style='height:8px'></view>
 </view>

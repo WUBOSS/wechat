@@ -1,12 +1,47 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/gif/gif",
+    "pages/gif2/gif2",
+    "pages/mine/mine"
   ],
+  "debug":false,
   "window":{
     "backgroundTextStyle":"light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarBackgroundColor": "#fc3906",
+    "navigationBarTitleText": "鸯鸯",
+    "navigationBarTextStyle":"white",
+    "enablePullDownRefresh":true 
+  },
+  "tabBar": {
+    "selectedColor":"#1296db",
+    "color":"#bfbfbf",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "最新笑话",
+        "iconPath": "res/home@2x.png",
+        "selectedIconPath": "res/home_select@2x.png"
+      },
+      {
+        "pagePath": "pages/gif/gif",
+        "text": "最新趣图",
+        "iconPath":"res/other@2x.png",
+        "selectedIconPath":"res/other_select@2x.png"
+      },
+      {
+        "pagePath": "pages/gif2/gif2",
+        "text": "最新动图",
+        "iconPath": "res/smile@2x.png",
+        "selectedIconPath": "res/smile_select@2x.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "res/bird@2x.png",
+        "selectedIconPath": "res/bird_select@2x.png"
+      }
+    ]
   }
 }
